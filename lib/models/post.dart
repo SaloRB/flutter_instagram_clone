@@ -5,10 +5,10 @@ class Post {
   final String uid;
   final String username;
   final String postId;
-  final datePublished;
+  final DateTime datePublished;
   final String postUrl;
   final String profileImage;
-  final likes;
+  final List<dynamic> likes;
 
   const Post({
     required this.description,
